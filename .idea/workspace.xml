@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bac5360-e3bc-41ab-b5f6-a9848dbce548" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/filewriter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/inputSanitizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/outputSanitizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/seatAllotment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/result.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inputSanitizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resultGenerator.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.txt" afterPath="$PROJECT_DIR$/data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileReader.js" afterPath="$PROJECT_DIR$/fileReader.js" />
-    </list>
+    <list default="true" id="8bac5360-e3bc-41ab-b5f6-a9848dbce548" name="Default" comment="" />
     <ignored path="traversal.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -359,12 +345,12 @@
       <workItem from="1476861148948" duration="7736000" />
       <workItem from="1476912227198" duration="3390000" />
       <workItem from="1477155343733" duration="18683000" />
-      <workItem from="1477183549921" duration="15770000" />
+      <workItem from="1477183549921" duration="15977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45579000" />
+    <option name="totallyTimeSpent" value="45786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
