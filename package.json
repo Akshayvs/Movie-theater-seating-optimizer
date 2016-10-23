@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "mini project that takes as input  input dataset 'is a predefined fixed format' and generates an output based on certain assumptions and requirements. Refer to README.txt for more details",
 
-  "main": "index.js",
+  "main": "fileReader.js",
   "scripts": {
     "test": "test",
+    "jshint": "jshint lib fileReader.js test",
     "jscs": "jscs lib fileReader.js test"
   },
   "keywords": [
