@@ -7,3 +7,5 @@ ASSUMPTIONS:
 to start execution in terminal :
 node fileReader.js data.txt
 
+
+SITTING NEXT TO EACH OTHER = HIGHEST PRIORITY
