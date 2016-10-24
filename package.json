@@ -2,9 +2,10 @@
   "name": "traversal",
   "version": "1.0.0",
   "description": "mini project that takes as input  input dataset 'is a predefined fixed format' and generates an output based on certain assumptions and requirements. Refer to README.txt for more details",
-
   "main": "fileReader.js",
   "scripts": {
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- --recursive test/unit -R spec",
+    "unit-test": "mocha --recursive test/unit",
     "test": "test",
     "jshint": "jshint lib fileReader.js test",
     "jscs": "jscs lib fileReader.js test"
@@ -14,5 +15,14 @@
     "traversal"
   ],
   "author": "akshays",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "mockery": "^2.0.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.2",
+    "sinon": "^1.17.6"
+  }
 }
