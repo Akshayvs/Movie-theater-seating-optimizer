@@ -6,15 +6,13 @@ var mockery = require('mockery');
 var sinon = require('sinon');
 
 describe('input sanitizer -test', function () {
-
+    var fileWriter;
     var error = {
         message: 'bam'
     }
     var fsMock = {
         writeFile: sinon.stub().returns(error)
     }
-
-    var fileWriter;
 
     before(' seting up mockery and testbed', function () {
         mockery.enable({useCleanCache: true});

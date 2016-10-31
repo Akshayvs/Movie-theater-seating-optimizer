@@ -9,6 +9,7 @@ var path = require('path');
 var inputSanitizer = require('./lib/inputSanitizer.js');
 
 var absolutePath = process.argv[2];
+
 var relativePath = path.relative('/Users/asonawane/WebstormProjects/traversal', absolutePath);
 
 fs.readFile(relativePath, function(err, f) {
